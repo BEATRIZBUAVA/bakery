@@ -78,9 +78,6 @@ const BakeryPage: React.FC = () => {
   const getCurrentCoberturaOption = () =>
     coberturaOptions.find((opt) => opt.name === cakeSpecs.cobertura) ||
     coberturaOptions[0];
-  const getCurrentTamanhoMultiplier = () =>
-    tamanhoOptions.find((opt) => opt.name === cakeSpecs.tamanho)?.multiplier ||
-    1;
 
   const calculateCakeTotal = (specs?: Partial<CakeSpecs>) => {
     const currentSpecs = specs ? { ...cakeSpecs, ...specs } : cakeSpecs;
