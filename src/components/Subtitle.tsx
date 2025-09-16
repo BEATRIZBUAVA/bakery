@@ -5,13 +5,13 @@ const Subtitle: React.FC = () => {
   return (
     <section className="bg-[#f5f1ec] flex flex-row justify-between py-32 relative overflow-hidden">
       <img
-        src="./images/blue_cake.png"
+        src="/images/blue_cake.png"
         alt=""
         className="absolute h-[80vh] -ml-32 -top-16 rotate-[20deg] "
       />
       <div className="relative flex flex-col justify-center items-center max-w-md mx-auto text-center border-2 border-dotted border-black p-24">
         <img
-          src="./images/red_bow.png"
+          src="/images/red_bow.png"
           alt="Laço decorativo"
           className="absolute -top-14 -right-28 rotate-[25deg] -translate-x-1/2 h-32"
         />
@@ -27,7 +27,7 @@ const Subtitle: React.FC = () => {
         </Link>
       </div>
       <img
-        src="./images/pink_cake.png"
+        src="/images/pink_cake.png"
         alt=""
         className="absolute h-[80vh] -right-48 top-24 -rotate-[25deg]"
       />
